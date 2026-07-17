@@ -91,7 +91,7 @@ web-security-cheat-sheet/
 ├── WebSockets.md
 ├── XSS.md
 └── XXE.md
-text
+
 
 
 ---

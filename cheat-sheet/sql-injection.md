@@ -1,4 +1,4 @@
-```markdown
+
 # 🐍 SQL Injection Cheat Sheet
 
 > **Quick reference** for SQL injection commands across different database systems.

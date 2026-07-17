@@ -19,6 +19,34 @@
 > A curated collection of web security vulnerabilities and cheat sheets for Bug Bounty & Penetration Testing
 
 ---
+## 📌 Current Status
+
+> **⚠️ Note:** Only **SQL Injection** cheat sheet is currently available.  
+> All other vulnerability cheat sheets are **coming soon** 🚧
+
+| Vulnerability | Status |
+|:--------------|:-------|
+| SQL Injection | ✅ Available |
+| XSS | 🚧 Coming Soon |
+| IDOR | 🚧 Coming Soon |
+| SSRF | 🚧 Coming Soon |
+| OS Command Injection | 🚧 Coming Soon |
+| NoSQL Injection | 🚧 Coming Soon |
+| JWT Vulnerabilities | 🚧 Coming Soon |
+| Authentication Bypass | 🚧 Coming Soon |
+| File Upload | 🚧 Coming Soon |
+| Business Logic | 🚧 Coming Soon |
+| GraphQL | 🚧 Coming Soon |
+| Prototype Pollution | 🚧 Coming Soon |
+| Request Smuggling | 🚧 Coming Soon |
+| Cache Poisoning | 🚧 Coming Soon |
+| CORS | 🚧 Coming Soon |
+| Clickjacking | 🚧 Coming Soon |
+| XXE | 🚧 Coming Soon |
+| CSRF | 🚧 Coming Soon |
+| WebSockets | 🚧 Coming Soon |
+| Host Header | 🚧 Coming Soon |
+
 
 ## 📂 Vulnerability Categories
 

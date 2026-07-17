@@ -46,7 +46,7 @@
 🗂️ Folder Structure
 
 
-web-security-cheat-sheet/
+*web-security-cheat-sheet/*
 ├── README.md
 └── cheat-sheet/
     ├── Auth-Bypass.md
@@ -70,7 +70,7 @@ web-security-cheat-sheet/
     ├── WebSockets.md
     ├── XSS.md
     └── XXE.md
-
+'''
 🛠️ Tools & Resources
 
     Burp Suite - الـ Proxy الأساسي لاختبار الويب

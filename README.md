@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 # 🛡️ Web Security Cheat Sheet
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/npx-official/web-security-cheat-sheet)
@@ -15,10 +16,25 @@
  ░▒▓██████▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓████████▓▒░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░          ░▒▓███████▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓████████▓▒░▒▓████████▓▒░  ░▒▓█▓▒░     
                                                                                                                                           
 ```                                                                                                                                      
+=======
+
+# 🛡️ Web Security Cheat Sheet
+
+░▒▓██████▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓████████▓▒░░▒▓██████▓▒░▒▓████████▓▒░ ░▒▓███████▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓████████▓▒░▒▓████████▓▒░▒▓████████▓▒░
+░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░ ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░ ░▒▓█▓▒░ ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░ ░▒▓█▓▒░ ░▒▓█▓▒░
+░▒▓█▓▒░ ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░ ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░ ░▒▓█▓▒░ ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░ ░▒▓█▓▒░ ░▒▓█▓▒░
+░▒▓█▓▒░ ░▒▓████████▓▒░▒▓██████▓▒░ ░▒▓████████▓▒░ ░▒▓█▓▒░ ░▒▓██████▓▒░░▒▓████████▓▒░▒▓██████▓▒░ ░▒▓██████▓▒░ ░▒▓█▓▒░
+░▒▓█▓▒░ ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░ ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░ ░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░ ░▒▓█▓▒░ ░▒▓█▓▒░
+░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░ ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░ ░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░ ░▒▓█▓▒░ ░▒▓█▓▒░
+░▒▓██████▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓████████▓▒░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░ ░▒▓███████▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓████████▓▒░▒▓████████▓▒░ ░▒▓█▓▒░
+text
+
+>>>>>>> 121c128 (Update README with proper markdown formatting and tables)
 
 > A curated collection of web security vulnerabilities and cheat sheets for Bug Bounty & Penetration Testing
 
 ---
+<<<<<<< HEAD
 ## 📌 Current Status
 
 > **⚠️ Note:** Only **SQL Injection** cheat sheet is currently available.  
@@ -47,6 +63,8 @@
 | WebSockets | 🚧 Coming Soon |
 | Host Header | 🚧 Coming Soon |
 
+=======
+>>>>>>> 121c128 (Update README with proper markdown formatting and tables)
 
 ## 📂 Vulnerability Categories
 
@@ -99,7 +117,11 @@
 ---
 
 ## 🗂️ Folder Structure
+<<<<<<< HEAD
 ```bash
+=======
+
+>>>>>>> 121c128 (Update README with proper markdown formatting and tables)
 web-security-cheat-sheet/
 ├── README.md
 └── cheat-sheet/
@@ -124,7 +146,11 @@ web-security-cheat-sheet/
 ├── WebSockets.md
 ├── XSS.md
 └── XXE.md
+<<<<<<< HEAD
 ```
+=======
+text
+>>>>>>> 121c128 (Update README with proper markdown formatting and tables)
 
 
 ---

@@ -10,9 +10,9 @@
 ░▒▓█▓▒░░▒▓█▓▒░  ░▒▓█▓▒░   ░▒▓███████▓▒░        ░▒▓█████████████▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░  ░▒▓█▓▒░   ░▒▓████████▓▒░░▒▓██████▓▒░░▒▓█▓▒░      ░▒▓███████▓▒░       
 
     A curated collection of web security vulnerabilities and cheat sheets for Bug Bounty & Penetration Testing
-
+```
 📂 Vulnerability Categories
-🚀 Core Vulnerabilities (الأساسيات)
+🚀 Core Vulnerabilities 
 Vulnerability	Difficulty	Link
 IDOR	Easy	IDOR.md
 XSS (Cross-Site Scripting)	Easy	XSS.md
@@ -40,8 +40,10 @@ XXE (XML External Entity)	Medium	XXE.md
 CSRF (Cross-Site Request Forgery)	Easy	CSRF.md
 WebSockets	Medium	WebSockets.md
 Host Header Attacks	Medium	Host-Header.md
+
+
 🗂️ Folder Structure
-text
+
 
 web-security-cheat-sheet/
 ├── README.md

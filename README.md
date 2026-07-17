@@ -12,14 +12,15 @@
     A curated collection of web security vulnerabilities and cheat sheets for Bug Bounty & Penetration Testing
 
 📂 Vulnerability Categories
-  🚀 Core Vulnerabilities 
+```
+🚀 Core Vulnerabilities 
      Vulnerability	Difficulty	Link
      IDOR	Easy	IDOR.md
      XSS (Cross-Site Scripting)	Easy	XSS.md
      SQL Injection	Medium	sql-injection.md
      Authentication Bypass	Easy	Auth-Bypass.md
      File Upload	Medium	File-Upload.md
-     🎯 Common & Critical (الشائعة والحرجة)
+🎯 Common & Critical (الشائعة والحرجة)
      Vulnerability	Difficulty	Link
      SSRF (Server-Side Request Forgery)	Medium	SSRF.md
      OS Command Injection	Medium	OS-CMD-Injection.md
@@ -27,20 +28,20 @@
     JWT Vulnerabilities	Medium	JWT.md
     Business Logic Flaws	Hard	Business-Logic.md
 🧩 Advanced & API (المتقدمة و API)
-Vulnerability	Difficulty	Link
-GraphQL Injection	Hard	GraphQL.md
-Prototype Pollution	Hard	Prototype-Pollution.md
-HTTP Request Smuggling	Hard	Request-Smuggling.md
-Web Cache Poisoning	Hard	Cache-Poisoning.md
-CORS Misconfiguration	Medium	CORS.md
+    Vulnerability	Difficulty	Link
+    GraphQL Injection	Hard	GraphQL.md
+    Prototype Pollution	Hard	Prototype-Pollution.md
+    HTTP Request Smuggling	Hard	Request-Smuggling.md
+    Web Cache Poisoning	Hard	Cache-Poisoning.md
+    CORS Misconfiguration	Medium	CORS.md
 🛠️ Additional (إضافية)
-Vulnerability	Difficulty	Link
-Clickjacking	Easy	Clickjacking.md
-XXE (XML External Entity)	Medium	XXE.md
-CSRF (Cross-Site Request Forgery)	Easy	CSRF.md
-WebSockets	Medium	WebSockets.md
-Host Header Attacks	Medium	Host-Header.md
-
+    Vulnerability	Difficulty	Link
+    Clickjacking	Easy	Clickjacking.md
+    XXE (XML External Entity)	Medium	XXE.md
+    CSRF (Cross-Site Request Forgery)	Easy	CSRF.md
+    WebSockets	Medium	WebSockets.md
+    Host Header Attacks	Medium	Host-Header.md
+```
 
 🗂️ Folder Structure
 

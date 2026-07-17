@@ -1,3 +1,7 @@
+![GitHub repo size](https://img.shields.io/github/repo-size/npx-official/web-security-cheat-sheet)
+![GitHub stars](https://img.shields.io/github/stars/npx-official/web-security-cheat-sheet)
+![GitHub last commit](https://img.shields.io/github/last-commit/npx-official/web-security-cheat-sheet)
+
 # 🛡️ Web Security Cheat Sheet
 
 ```

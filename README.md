@@ -12,20 +12,20 @@
     A curated collection of web security vulnerabilities and cheat sheets for Bug Bounty & Penetration Testing
 
 📂 Vulnerability Categories
-🚀 Core Vulnerabilities 
-Vulnerability	Difficulty	Link
-IDOR	Easy	IDOR.md
-XSS (Cross-Site Scripting)	Easy	XSS.md
-SQL Injection	Medium	sql-injection.md
-Authentication Bypass	Easy	Auth-Bypass.md
-File Upload	Medium	File-Upload.md
-🎯 Common & Critical (الشائعة والحرجة)
-Vulnerability	Difficulty	Link
-SSRF (Server-Side Request Forgery)	Medium	SSRF.md
-OS Command Injection	Medium	OS-CMD-Injection.md
-NoSQL Injection	Medium	NoSQLi.md
-JWT Vulnerabilities	Medium	JWT.md
-Business Logic Flaws	Hard	Business-Logic.md
+  🚀 Core Vulnerabilities 
+     Vulnerability	Difficulty	Link
+     IDOR	Easy	IDOR.md
+     XSS (Cross-Site Scripting)	Easy	XSS.md
+     SQL Injection	Medium	sql-injection.md
+     Authentication Bypass	Easy	Auth-Bypass.md
+     File Upload	Medium	File-Upload.md
+     🎯 Common & Critical (الشائعة والحرجة)
+     Vulnerability	Difficulty	Link
+     SSRF (Server-Side Request Forgery)	Medium	SSRF.md
+     OS Command Injection	Medium	OS-CMD-Injection.md
+     NoSQL Injection	Medium	NoSQLi.md
+    JWT Vulnerabilities	Medium	JWT.md
+    Business Logic Flaws	Hard	Business-Logic.md
 🧩 Advanced & API (المتقدمة و API)
 Vulnerability	Difficulty	Link
 GraphQL Injection	Hard	GraphQL.md

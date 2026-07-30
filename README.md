@@ -22,7 +22,7 @@
 
 ## 📌 Current Status
 
-> **⚠️ Note:** Only **SQL Injection** cheat sheet is currently available.  
+> **⚠️ Note:** Only **SQL Injection AND NoSQL injection** cheat sheet is currently available.  
 > All other vulnerability cheat sheets are **coming soon** 🚧
 
 | Vulnerability | Status |

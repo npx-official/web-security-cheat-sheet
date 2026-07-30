@@ -32,7 +32,7 @@
 | IDOR | 🚧 Coming Soon |
 | SSRF | 🚧 Coming Soon |
 | OS Command Injection | 🚧 Coming Soon |
-| NoSQL Injection | 🚧 Coming Soon |
+| NoSQL Injection | ✅ Available |
 | JWT Vulnerabilities | 🚧 Coming Soon |
 | Authentication Bypass | 🚧 Coming Soon |
 | File Upload | 🚧 Coming Soon |

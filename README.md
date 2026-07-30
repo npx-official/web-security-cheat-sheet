@@ -15,7 +15,6 @@
  ░▒▓██████▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓████████▓▒░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░          ░▒▓███████▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓████████▓▒░▒▓████████▓▒░  ░▒▓█▓▒░     
                                                                                                                                           
 ```                                                                                                                                      
-=======
 
 > A curated collection of web security vulnerabilities and cheat sheets for Bug Bounty & Penetration Testing
 
@@ -49,8 +48,8 @@
 | WebSockets | 🚧 Coming Soon |
 | Host Header | 🚧 Coming Soon |
 
-=======
->>>>>>> 121c128 (Update README with proper markdown formatting and tables)
+
+
 
 ## 📂 Vulnerability Categories
 

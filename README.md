@@ -1,5 +1,4 @@
 
-<<<<<<< HEAD
 # 🛡️ Web Security Cheat Sheet
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/npx-official/web-security-cheat-sheet)
@@ -18,13 +17,10 @@
 ```                                                                                                                                      
 =======
 
-
->>>>>>> 121c128 (Update README with proper markdown formatting and tables)
-
 > A curated collection of web security vulnerabilities and cheat sheets for Bug Bounty & Penetration Testing
 
 ---
-<<<<<<< HEAD
+
 ## 📌 Current Status
 
 > **⚠️ Note:** Only **SQL Injection** cheat sheet is currently available.  
@@ -58,7 +54,7 @@
 
 ## 📂 Vulnerability Categories
 
-### 🚀 Core Vulnerabilities (الأساسيات)
+### 🚀 Core Vulnerabilities 
 
 | Vulnerability | Difficulty | Link |
 |:--------------|:-----------|:-----|
@@ -70,7 +66,7 @@
 
 ---
 
-### 🎯 Common & Critical (الشائعة والحرجة)
+### 🎯 Common & Critical
 
 | Vulnerability | Difficulty | Link |
 |:--------------|:-----------|:-----|
@@ -82,7 +78,7 @@
 
 ---
 
-### 🧩 Advanced & API (المتقدمة و API)
+### 🧩 Advanced & API 
 
 | Vulnerability | Difficulty | Link |
 |:--------------|:-----------|:-----|
@@ -94,7 +90,7 @@
 
 ---
 
-### 🛠️ Additional (إضافية)
+### 🛠️ Additional 
 
 | Vulnerability | Difficulty | Link |
 |:--------------|:-----------|:-----|
@@ -107,11 +103,9 @@
 ---
 
 ## 🗂️ Folder Structure
-<<<<<<< HEAD
+
 ```bash
 =======
-
->>>>>>> 121c128 (Update README with proper markdown formatting and tables)
 web-security-cheat-sheet/
 ├── README.md
 └── cheat-sheet/
@@ -136,11 +130,9 @@ web-security-cheat-sheet/
 ├── WebSockets.md
 ├── XSS.md
 └── XXE.md
-<<<<<<< HEAD
+
 ```
-=======
-text
->>>>>>> 121c128 (Update README with proper markdown formatting and tables)
+
 
 
 ---

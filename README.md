@@ -140,11 +140,11 @@ web-security-cheat-sheet/
 
 | Tool | Description |
 |:-----|:------------|
-| **Burp Suite** | الـ Proxy الأساسي لاختبار الويب |
-| **FFUF** | لتخمين الملفات والمجلدات |
-| **Param Miner** | لاكتشاف البارامترات المخفية |
-| **PortSwigger Labs** | تدريب عملي مجاني |
-| **OWASP Top 10** | قائمة أهم الثغرات |
+| **Burp Suite** | Primary proxy for web application testing |
+| **FFUF** | For guessing files and directories |
+| **Param Miner** | For discovering hidden parameters |
+| **PortSwigger Labs** | Free hands-on training |
+| **OWASP Top 10** | List of the most critical vulnerabilities |
 
 ---
 

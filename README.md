@@ -22,31 +22,31 @@
 
 ## 📌 Current Status
 
-> **⚠️ Note:** Only **SQL Injection AND NoSQL injection** cheat sheet is currently available.  
-> All other vulnerability cheat sheets are **coming soon** 🚧
+> **✅ Note:** All **20** vulnerability cheat sheets are now available.  
+> Each entry is a standalone quick reference with payloads, testing steps, mitigation and references.
 
 | Vulnerability | Status |
 |:--------------|:-------|
 | SQL Injection | ✅ Available |
-| XSS | 🚧 Coming Soon |
-| IDOR | 🚧 Coming Soon |
-| SSRF | 🚧 Coming Soon |
-| OS Command Injection | 🚧 Coming Soon |
+| XSS | ✅ Available |
+| IDOR | ✅ Available |
+| SSRF | ✅ Available |
+| OS Command Injection | ✅ Available |
 | NoSQL Injection | ✅ Available |
-| JWT Vulnerabilities | 🚧 Coming Soon |
-| Authentication Bypass | 🚧 Coming Soon |
-| File Upload | 🚧 Coming Soon |
-| Business Logic | 🚧 Coming Soon |
-| GraphQL | 🚧 Coming Soon |
-| Prototype Pollution | 🚧 Coming Soon |
-| Request Smuggling | 🚧 Coming Soon |
-| Cache Poisoning | 🚧 Coming Soon |
-| CORS | 🚧 Coming Soon |
-| Clickjacking | 🚧 Coming Soon |
-| XXE | 🚧 Coming Soon |
-| CSRF | 🚧 Coming Soon |
-| WebSockets | 🚧 Coming Soon |
-| Host Header | 🚧 Coming Soon |
+| JWT Vulnerabilities | ✅ Available |
+| Authentication Bypass | ✅ Available |
+| File Upload | ✅ Available |
+| Business Logic | ✅ Available |
+| GraphQL | ✅ Available |
+| Prototype Pollution | ✅ Available |
+| Request Smuggling | ✅ Available |
+| Cache Poisoning | ✅ Available |
+| CORS | ✅ Available |
+| Clickjacking | ✅ Available |
+| XXE | ✅ Available |
+| CSRF | ✅ Available |
+| WebSockets | ✅ Available |
+| Host Header | ✅ Available |
 
 
 
